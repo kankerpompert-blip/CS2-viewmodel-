@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "cs2viewmodel",
+  "version": "1.0.0",
+  "name": "CS2 Viewmodel",
+  "description": "CS2-style butterfly knife viewmodel (sway, inspect) and flashbang offhand.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.cs2view.CS2ViewModel"] },
+  "mixins": [{ "config": "cs2viewmodel.mixins.json", "environment": "client" }],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
